@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartEscola", "SmartEscola.csproj", "{473B1AAF-76A2-4C2E-B9D9-FD26EAEF13B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robo", "..\Robo\Robo.csproj", "{4B0BFC36-7324-4B11-9F91-82E1E7CE4F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robo.Test", "..\Robo.Test\Robo.Test.csproj", "{91CD3154-69C9-450A-B5B0-CE0BB84EDE9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{473B1AAF-76A2-4C2E-B9D9-FD26EAEF13B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{473B1AAF-76A2-4C2E-B9D9-FD26EAEF13B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{473B1AAF-76A2-4C2E-B9D9-FD26EAEF13B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{473B1AAF-76A2-4C2E-B9D9-FD26EAEF13B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B0BFC36-7324-4B11-9F91-82E1E7CE4F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B0BFC36-7324-4B11-9F91-82E1E7CE4F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B0BFC36-7324-4B11-9F91-82E1E7CE4F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B0BFC36-7324-4B11-9F91-82E1E7CE4F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91CD3154-69C9-450A-B5B0-CE0BB84EDE9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91CD3154-69C9-450A-B5B0-CE0BB84EDE9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91CD3154-69C9-450A-B5B0-CE0BB84EDE9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91CD3154-69C9-450A-B5B0-CE0BB84EDE9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C264642-627F-457B-9AFC-519C3427C696}
+	EndGlobalSection
+EndGlobal
