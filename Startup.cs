@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using SmartEscola.Data;
 using Newtonsoft.Json;
+using AutoMapper;
 
 namespace SmartEscola
 {
@@ -37,6 +38,8 @@ namespace SmartEscola
                 .AddNewtonsoftJson(
                 opt => opt.SerializerSettings.ReferenceLoopHandling =
                 Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -3,35 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SmartEscola.Models
+namespace SmartEscola.DTO
 {
-    public class Professor
+    public class AlunoRegisterDTO
     {
-        public Professor()
-        {}
-
-        public Professor(int id, int registro, string nome,string sobrenome)
-        {
-            this.Id = id;
-            this.Registro = registro;
-            this.Nome = nome;
-            this.Sobrenome = sobrenome;
-            
-        }
-
         public int Id { get; set; }
 
-        public int Registro { get; set; }
-
+        public int Matricula { get; set; }
         public string Nome { get; set; }
         public string Sobrenome { get; set; }
         public string Telefone { get; set; }
+        public DateTime DataNascimento { get; set; }
 
         public DateTime dataInicio { get; set; } = DateTime.Now;
         public DateTime? dataFim { get; set; } = null;
 
         public bool Ativo { get; set; } = true;
-
-        public IEnumerable<Disciplina> Disciplinas { get; set; }
     }
 }
