@@ -110,7 +110,7 @@ namespace SmartEscola.Controllers
                 return Ok("Aluno excluido qualquer");
             }
 
-            return BadRequest("Aluno não Excluido");
+            return BadRequest("Aluno não Excluido chato");
         }
     }
 }
