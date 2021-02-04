@@ -107,7 +107,7 @@ namespace SmartEscola.Controllers
             _repo.Delete(aluno);
             if (_repo.SaveChanges())
             {
-                return Ok("Aluno excluido");
+                return Ok("Aluno excluido qualquer");
             }
 
             return BadRequest("Aluno não Excluido");
